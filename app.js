@@ -7,7 +7,6 @@ require('dotenv').config();
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 
-
 const app = express();
 // NOTE: import, assign, & use built-in body parser
 
